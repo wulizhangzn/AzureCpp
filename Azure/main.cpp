@@ -17,7 +17,7 @@ int main()
     }
     in.close();//创建一个空文件，发送这个文件表示一句话的结束
     Azure endpoint;
-    char * key = (char *)"自己的key";
+    char * key = (char *)"Your own key";
     std::string uri = "wss://dev.microsofttranslator.com/speech/translate?api-version=1.0&from=en&to=zh";//请求路径
     std::cout<<"connecting......"<<"\n";
     endpoint.start(uri,key);//创建连接

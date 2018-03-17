@@ -1,4 +1,4 @@
-Linux 下的编译 :
+//Linux Compile
 $ g++ main.cpp -std=c++11 -std=c++11 -lcrypto -lboost_system -lpthread -lssl
-生成 a.out 文件
+//get a.out,run it
 $ ./a.out
